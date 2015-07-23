@@ -1,0 +1,106 @@
+<resources>
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <!-- new -->
+    <style name="style_txt_title">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">@dimen/setting_header_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_txt_setting_title">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/setting_header_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_txt_list_row">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_size_txt_list_row</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="style_btn_menu_button">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/home_menu_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_btn_menu">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">@dimen/menu_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_question_no">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_question">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">@dimen/question_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="style_btn_show_answare">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_btn_level">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">@dimen/text_size_level_no</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_txt_score">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_size_question_index</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_btn_answare_option">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/answare_option_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="style_question_index">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_size_question_index</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_question_right_wronge">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">@dimen/text_size_question_right_wronge</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="style_lbl_setting">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/lbl_settin_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_btn_setting_button">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/setting_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_about_text">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_description_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="style_about_share_title">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_description_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

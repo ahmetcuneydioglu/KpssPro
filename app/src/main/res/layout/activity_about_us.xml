@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       android:background="@color/app_theme_color"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_panel"
+        android:gravity="top" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/style_txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/general_knowledge_in_gujarati"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	</RelativeLayout>
+	
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/setting_left_right_margin"
+            android:layout_marginLeft="@dimen/setting_left_right_margin"
+            android:layout_marginRight="@dimen/setting_left_right_margin"
+            android:layout_marginTop="@dimen/setting_left_right_margin"
+            android:background="@drawable/button_blue"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTitle"
+                android:layout_marginLeft="@dimen/setting_left_right_margin"
+                android:layout_marginRight="@dimen/setting_left_right_margin"
+                android:layout_marginTop="@dimen/setting_left_right_margin"
+                android:scrollbars="vertical" >
+
+                <TextView
+                    android:id="@+id/txtdesc"
+                    style="@style/style_about_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_quiz_ranking" />
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/txtTitle"
+                style="@style/style_btn_setting_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="About Quiz Ranking " />
+
+            <RelativeLayout
+                android:id="@+id/layout_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/style_about_share_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Contact Mail" />
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    style="@style/style_about_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView2"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/email_lbl" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:layout_below="@+id/layout_email"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/style_about_share_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Facebook" />
+
+                <TextView
+                    android:id="@+id/txtFacebook"
+                    style="@style/style_about_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:clickable="true"
+                    android:text="@string/facebook_lbl" />
+            </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/layout_twiter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="25dp"
+                            android:layout_below="@+id/layout_facebook"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                style="@style/style_about_share_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:text="Twitter" />
+
+                            <TextView
+                                android:id="@+id/txtTwitter"
+                                style="@style/style_about_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/textView6"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="15dp"
+                                android:clickable="true"
+                                android:text="@string/twitter_lbl" />
+                        </RelativeLayout>
+            
+        </RelativeLayout>
+
+</LinearLayout>

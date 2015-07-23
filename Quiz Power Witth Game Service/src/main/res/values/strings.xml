@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quiz Power</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Replace you Admob Unit - id here -->
+    <string name="admob_banner">ca-app-pub-1891613648627380/6725793755</string>
+    <string name="admob_intersitital">ca-app-pub-1891613648627380/5249060556</string>
+
+
+    <!-- This will true if you testing app when you publish on play store make if fasle -->
+    <bool name="istestmode">true</bool>
+
+    <!-- If we set question bank from local Assets folder SQlite file then it will be false if we need question bank from
+    web that is given PHP admin panel then set here true -->
+    <bool name="isQuestionFormWeb">true</bool>
+
+    <!-- set you service URL plz don't foget otherwise it will be get our question database. For Four Option Question-->
+    <string name="question_bank_url">http://arkayapps.com/quizpower/getquestionwithoptionbylevelid.php?levelid=</string>
+
+    <!-- set you service URL plz don't foget otherwise it will be get our question database. FOR ONE option Questions-->
+    <string name="get_question_right_answare">http://arkayapps.com/quizpower/getquestionrightanswerbylevelid.php?levelid=</string>
+    <!-- <string name="get_number_of_level">http://arkayapps.com/quizpower/getnumberoflevel.php</string> -->
+    <string name="get_level_info">http://arkayapps.com/quizpower/getleveliinfo.php</string>
+
+    <string name="icon_url"> https://lh3.googleusercontent.com/-GifeEujNvJQ/VHQIh5OvzsI/AAAAAAAAAmk/jTw7I86i4x4/s128/icon_80.png</string>
+
+
+    <item type="integer" name="app_theme_color_index">1</item>
+
+    <string name="title_activity_select_game">SelectGameActivity</string>
+    <string name="title_activity_category_question">CategoryQuestionActivity</string>
+
+    <string name="title_activity_select_level">SelectLevelActivity</string>
+    <string name="play">Play</string>
+    <string name="high_score">High Score</string>
+    <string name="settings">Settings</string>
+    <string name="zero_score">Best Score: 00 </string>
+    <string name="select_level">Select Level</string>
+    <string name="no_off_question">Number of Question 20</string>
+    <string name="start">Start</string>
+
+    <string name="level">Level </string>
+    <string name="finished">Finished..</string>
+    <string name="not_completed">Not completed plz try again.</string>
+    <string name="sec">Sec.</string>
+    <string name="next_level_not_open">Next Level Not open</string>
+    <string name="play_again_this_level">Go to Home</string>
+    <string name="title_activity_quiz_play">QuizPlayActivity</string>
+    <string name="general_knowledge_in_gujarati">Quiz Power</string>
+
+    <string name="sign_in_why">Sign in with Google to share your scores and achievements with your friends.</string>
+    <string name="achievement">Achievement</string>
+    <string name="you_are_signed_in">You are signed in with Google.</string>
+    <string name="sign_out">Sign out</string>
+    <string name="show_answer">Show Answer</string>
+
+    <string name="achievements_not_available">Please sign in to view achievements.</string>
+    <string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
+
+
+    <string name="sound_effect">Sound Effect</string>
+    <string name="vibration">Vibration</string>
+    <string name="setting">Settings</string>
+    <string name="share_me">Share Me</string>
+    <string name="rate_me">Rate Me</string>
+
+    <string name="loading_from_cloud">Loading your progress.</string>
+
+    <string name="level11">from value </string>
+
+    <string name="how_to_play">Two type of game 1. Let\'s learn and 2. Play Quiz. First is use full for improve general knowledge and second is check your general knowledge power. In this score will score on cloud also integerated google game services that will save you score on leaderboard so you can compare you score will your friends and Achevement you can show how many achevement unlock.</string>
+    <string name="about_quiz_ranking">Let\'s improve out General knowledge just playing game no need book. Also compare your knowledge with you friends thoudh leaderboard.</string>
+
+    <string name="email_lbl">support@arkayapps.com</string>
+    <string name="facebook_lbl">Arkay Apps</string>
+    <string name="twitter_lbl">\@Arkayapps</string>
+
+    <string name="email_url">hahah@gmail.com</string>
+    <string name="facebook_url">http://www.facebook.com/arkayapp</string>
+    <string name="twitter_url">https://twitter.com/@Arkayapps</string>
+
+</resources>

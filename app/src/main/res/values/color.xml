@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ <color name="White">#FFFFFF</color>
+ <color name="text_color">#048d9e</color>
+ <color name="app_theme_red">#ff525f</color>
+ <color name="app_theme_green">#52c13a</color>
+ 
+ <color name="GreenButtonStartColor">#BF52c13a</color>
+ <color name="GreenButtonEndColor">#BF469f33</color>
+ <color name="GreenButtonDisabledStartColor">#565051</color>
+ <color name="GreenButtonDisabledEndColor">#736F6E</color>
+ <color name="GreenButtonBorderColor">#254117</color>
+
+ <color name="BlueButtonStartColor">#ffffff</color>
+ <color name="BlueButtonEndColor">#e4f6f8</color>
+ <color name="BlueButtonDisabledStartColor">#565051</color>
+ <color name="BlueButtonDisabledEndColor">#736F6E</color>
+ <color name="BlueButtonBorderColor">#a8a8a8</color>
+    
+ <color name="RedButtonStartColor">#BFff525f</color>
+ <color name="RedButtonEndColor">#BFdc4a55</color>
+ <color name="RedButtonDisabledStartColor">#565051</color>
+ <color name="RedButtonDisabledEndColor">#736F6E</color>
+ <color name="RedButtonBorderColor">#f8c600</color>
+    
+ <color name="list_divider_color">#87d9ff</color>
+ <color name="app_theme_color">#00bcd4</color>
+    
+     <!-- App color Theme -->
+ <color name="app_background_color_1">#23b3d2</color>
+ <color name="app_background_color_1_1">#2092ab</color>
+ <color name="app_background_color_1_button_End_Color">#e4f4f7</color>
+ 
+ 
+  <color name="AllButtonBorderColor">#a8a8a8</color>
+  <color name="AllButtonStartColor">#ffffff</color>
+  
+
+ 
+ 
+ 
+ 
+ 
+ 
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       android:background="@color/app_theme_color"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_panel"
+        android:gravity="top" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/style_txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/general_knowledge_in_gujarati"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	</RelativeLayout>
+	
+        <LinearLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/setting_left_right_margin"
+            android:layout_marginRight="@dimen/setting_left_right_margin"
+            android:layout_marginTop="@dimen/setting_left_right_margin"
+            android:layout_marginBottom="@dimen/setting_left_right_margin"
+            android:background="@drawable/button_blue" >
+
+            <ScrollView android:layout_width="fill_parent"
+                android:layout_marginLeft="@dimen/setting_left_right_margin"
+	            	android:layout_marginRight="@dimen/setting_left_right_margin"
+			android:layout_height="wrap_content" android:scrollbars="vertical">
+			
+	            <TextView
+	                android:id="@+id/txtdesc"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                style="@style/style_about_text"
+	                android:text="@string/how_to_play" />
+			</ScrollView>
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">5dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+
+
+    <dimen name="select_level_height">175dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+    <dimen name="list_row_left_margin">15dp</dimen>
+    <dimen name="menu_button_top_margin">10dp</dimen>
+    <dimen name="menu_button_layout_width">250dp</dimen>
+    <dimen name="next_prev_button_width_height">50dp</dimen>
+    <dimen name="next_prev_left_right_margin">5dp</dimen>
+    <dimen name="question_left_right_margin">5dp</dimen>
+    <dimen name="right_wronge_height">20dp</dimen>
+    <dimen name="top_margin_question">60dp</dimen>
+    <dimen name="top_margin_option">15dp</dimen>
+    <dimen name="coin_image_size">30dp</dimen>
+    <dimen name="show_question_top_margin">25dp</dimen>
+
+    <dimen name="setting_left_right_margin">10dp</dimen>
+    <dimen name="setting_left_top_margin">15dp</dimen>
+    <dimen name="setting_first_row_top_margin">40dp</dimen>
+    <dimen name="setting_toggle_button_width">120dp</dimen>
+
+    <dimen name="top_level_text_size">25sp</dimen>
+    <dimen name="list_view_divider">1dp</dimen>
+    <dimen name="list_view_padding">5dip</dimen>
+    <dimen name="left_rigth_margin_score_button">10dp</dimen>
+    <dimen name="option_left_right_margin">5dp</dimen>
+    <dimen name="option_button_padding">5dp</dimen>
+
+    <dimen name="dialog_box_height">280dp</dimen>
+    <dimen name="lbl_settin_text_size">18sp</dimen>
+
+    <!-- Button -->
+    <dimen name="button_border">1dp</dimen>
+    <dimen name="button_redious">5dp</dimen>
+    <dimen name="button_peding">10dp</dimen>
+    <!-- End Button -->
+
+    <!-- TextSize -->
+    <dimen name="text_size_txt_list_row">18sp</dimen>
+    <dimen name="text_size_question_index">22sp</dimen>
+    <dimen name="text_size_level_no">20sp</dimen>
+    <dimen name="text_size_question_right_wronge">20sp</dimen>
+    <dimen name="question_text_size">18sp</dimen>
+    <dimen name="answare_option_text_size">18sp</dimen>
+    <dimen name="dialog_heading_text_size">16sp</dimen>
+    <dimen name="score_top_margin">15dp</dimen>
+    <dimen name="dialog_button_height">50dp</dimen>
+    <dimen name="dialog_button_text_size">20sp</dimen>
+    <dimen name="dialog_button_top_margin">25dp</dimen>
+    <dimen name="setting_toggle_button_text_size">20sp</dimen>
+    <dimen name="setting_button_text_size">20sp</dimen>
+    <dimen name="setting_header_text_size">25sp</dimen>
+    <dimen name="show_answare_text_size">25sp</dimen>
+    <dimen name="menu_button_text_size">25sp</dimen>
+    <dimen name="home_menu_button_text_size">22sp</dimen>
+
+    <dimen name="text_description_text_size">15sp</dimen>
+
+    <dimen name="home_page_title_bottom_margin">25dp</dimen>
+
+    <dimen name="top_panel_margin">10dp</dimen>
+
+
+
+</resources>
+

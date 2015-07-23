@@ -1,0 +1,175 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_home_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/app_theme_color"
+    android:orientation="vertical"
+    tools:context=".SplashActivity" 
+    xmlns:app="http://schemas.android.com/apk/lib/com.google.android.gms.plus">
+
+
+         
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="@dimen/menu_button_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+         >
+
+        
+        <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="@dimen/home_page_title_bottom_margin"
+	        android:src="@drawable/title_1" />
+
+        <Button
+            android:id="@+id/btnLearning"
+            style="@style/style_btn_menu_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_blue"
+            android:text="Let&apos;s Learn" />
+
+        <Button
+            android:id="@+id/btnPlay"
+            style="@style/style_btn_menu_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/menu_button_top_margin"
+            android:background="@drawable/button_blue"
+            android:text="Play Quiz" />
+
+
+
+        <Button
+            android:id="@+id/btnAchievement"
+            style="@style/style_btn_menu_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/menu_button_top_margin"
+            android:background="@drawable/button_blue"
+            android:text="Achievement" />
+        
+        <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="@dimen/menu_button_layout_width"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="@dimen/menu_button_top_margin"
+        android:orientation="horizontal" >
+        	<Button
+            android:id="@+id/btnSetting"
+            android:layout_width="@dimen/next_prev_button_width_height"
+            android:layout_height="@dimen/next_prev_button_width_height"
+            android:layout_marginTop="@dimen/menu_button_top_margin"
+            android:background="@drawable/btn_settings" />
+        
+        <Button
+            android:id="@+id/btnLeaderboard"
+            android:layout_width="@dimen/next_prev_button_width_height"
+            android:layout_height="@dimen/next_prev_button_width_height"
+            android:layout_marginTop="@dimen/menu_button_top_margin"
+            android:layout_marginLeft="@dimen/menu_button_top_margin"
+            android:background="@drawable/btn_leaderboard" />
+        
+         <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="@dimen/next_prev_button_width_height"
+            android:layout_height="@dimen/next_prev_button_width_height"
+            android:layout_marginTop="@dimen/menu_button_top_margin"
+            android:layout_marginLeft="@dimen/menu_button_top_margin"
+            android:background="@drawable/btn_info" />
+        
+         <Button
+            android:id="@+id/btnHelp"
+            android:layout_width="@dimen/next_prev_button_width_height"
+            android:layout_height="@dimen/next_prev_button_width_height"
+            android:layout_marginTop="@dimen/menu_button_top_margin"
+            android:layout_marginLeft="@dimen/menu_button_top_margin"
+            android:background="@drawable/btn_help" />
+         
+         
+
+        </LinearLayout>
+
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ads_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sign_in_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/ads_layout"
+        android:layout_marginTop="1dp"
+        android:background="#f0f0f0"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="0dp" >
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/sign_in_why"
+            android:textColor="#808080" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sign_out_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/ads_layout"
+        android:layout_marginTop="1dp"
+        android:background="#f0f0f0"
+        android:gravity="center|right"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="@string/you_are_signed_in"
+            android:textColor="#808080" />
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_out"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+      <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+      </FrameLayout>  
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,396 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_theme_color"
+    tools:context=".FlagQuiz"
+    android:id="@+id/playQuizmainLayout" >
+
+    <RelativeLayout
+        android:id="@+id/top_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/app_background_color_1"
+        android:gravity="top" >
+
+         <TextView
+            android:id="@+id/txt_question"
+            style="@style/style_question_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/left_rigth_margin_score_button"
+            android:background="@drawable/background_score"
+            android:layout_marginTop="@dimen/top_panel_margin"
+            android:layout_marginBottom="@dimen/top_panel_margin"
+            android:text="1/20" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/coin_image_size"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/txtScore"
+             android:layout_marginRight="@dimen/left_rigth_margin_score_button"
+            android:src="@drawable/coin" />
+
+        <TextView
+            android:id="@+id/txtScore"
+            style="@style/style_txt_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/background_score"
+            android:text="00" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_answare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_panel"
+        android:layout_marginLeft="@dimen/question_left_right_margin"
+        android:layout_marginRight="@dimen/question_left_right_margin"
+        android:layout_marginTop="@dimen/top_margin_question"
+        android:background="@drawable/background_question"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/imgQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="question loading.."
+            android:layout_marginLeft="@dimen/question_left_right_margin"
+        android:layout_marginRight="@dimen/question_left_right_margin"
+            style="@style/style_question" />
+    </RelativeLayout>
+
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/layout_answare"
+        android:layout_marginLeft="@dimen/option_left_right_margin"
+        android:layout_marginRight="@dimen/option_left_right_margin"
+        android:layout_marginTop="@dimen/top_margin_option"
+        android:layout_above="@+id/ads_layout"
+        >
+   <LinearLayout
+        android:id="@+id/ads_layoutdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        
+        android:orientation="vertical" >
+        
+       <Button
+                android:id="@+id/btnOpt1"
+                style="@style/style_btn_answare_option"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/option_left_right_margin"
+                android:layout_marginLeft="@dimen/option_left_right_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/option_button_padding"
+                android:layout_marginTop="@dimen/top_margin_option"
+                android:text="" />
+       
+              <Button
+                android:id="@+id/btnOpt2"
+                style="@style/style_btn_answare_option"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/option_left_right_margin"
+                android:layout_marginLeft="@dimen/option_left_right_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/option_button_padding"
+                 android:layout_marginTop="@dimen/top_margin_option"
+                android:text="" />
+              
+                            <Button
+                android:id="@+id/btnOpt3"
+                style="@style/style_btn_answare_option"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/option_left_right_margin"
+                android:layout_marginLeft="@dimen/option_left_right_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_blue"
+                 android:layout_marginTop="@dimen/top_margin_option"
+                android:padding="@dimen/option_button_padding"
+                android:text="" />
+       
+                                          <Button
+                android:id="@+id/btnOpt4"
+                style="@style/style_btn_answare_option"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/option_left_right_margin"
+                android:layout_marginLeft="@dimen/option_left_right_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_blue"
+                 android:layout_marginTop="@dimen/top_margin_option"
+                android:padding="@dimen/option_button_padding"
+                android:text="" />
+       
+    </LinearLayout>
+    </ScrollView>
+    
+    <!-- <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/layout_answare"
+        android:layout_marginLeft="@dimen/option_left_right_margin"
+        android:layout_marginRight="@dimen/option_left_right_margin"
+        android:layout_marginTop="@dimen/top_margin_option" >
+
+        <TableRow
+            android:id="@+id/buttonRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/top_margin_option" >
+
+            <Button
+                android:id="@+id/btnOpt1"
+                style="@style/style_btn_answare_option"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                 android:layout_marginRight="@dimen/option_left_right_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/option_button_padding"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnOpt2"
+                style="@style/style_btn_answare_option"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="@dimen/option_left_right_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/option_button_padding"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/buttonRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/top_margin_option" >
+
+            <Button
+                android:id="@+id/btnOpt3"
+                style="@style/style_btn_answare_option"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                 android:layout_marginRight="@dimen/option_left_right_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/option_button_padding"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnOpt4"
+                style="@style/style_btn_answare_option"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="@dimen/option_left_right_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/option_button_padding"
+                android:text="" />
+        </TableRow>
+    </TableLayout> -->
+
+    <!-- <TextView
+        android:id="@+id/txtRightWronge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_panel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text=""
+        android:textSize="17dp"
+        android:textStyle="bold" /> -->
+
+<!--     <TextView
+        android:id="@+id/txtTimePenalty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tableLayout1"
+        android:layout_below="@+id/top_panel"
+        android:layout_marginTop="5dp"
+        android:text=""
+        android:textColor="@color/red"
+        android:textStyle="bold" /> -->
+
+    <LinearLayout
+        android:id="@+id/ads_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+     <!-- <TextView
+         android:id="@+id/txtToBeat"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/top_panel"
+         android:text="@string/to_beat"
+         android:textColor="@color/Yellow" /> -->
+
+     <TextView
+         android:id="@+id/txtLevel"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/top_panel"
+         android:layout_centerHorizontal="true"
+         android:text="Level NO:"
+         style="@style/style_btn_level" />
+
+     <!-- <TextView
+         android:id="@+id/txt_true_false"
+         style="@style/style_btn_level"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/layout_answare"
+         android:layout_alignTop="@+id/txtLevel"
+         android:layout_marginLeft="33dp"
+         android:background="@drawable/background_score"
+         android:text="1/20" /> -->
+
+     <!-- <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:background="@drawable/background_score"
+         android:layout_alignTop="@+id/txtLevel" >
+
+         <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="wrap_content"
+             android:layout_height="20dp"
+             android:src="@drawable/right_mark_1" />
+        
+         <TextView
+            android:id="@+id/txt_question"
+            style="@style/style_btn_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="1/20" />
+        
+     </LinearLayout> -->
+
+<!--      <ImageView
+         android:id="@+id/imageView2"
+         android:layout_width="wrap_content"
+         android:layout_height="20dp"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/top_panel"
+         android:src="@drawable/right_mark_1" />
+
+     <ImageView
+         android:id="@+id/imageView3"
+         android:layout_width="wrap_content"
+         android:layout_height="20dp"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/top_panel"
+         android:src="@drawable/wronge_mark_1" />
+
+     <TextView
+         android:id="@+id/txtFalse"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/txtTrueAns"
+         android:layout_alignBottom="@+id/txtTrueAns"
+         android:layout_alignParentRight="true"
+         android:text="TextView"
+         android:textColor="@color/Yellow" />
+
+     <TextView
+         android:id="@+id/txtTrueAns"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/layout_answare"
+         android:layout_below="@+id/imageView2"
+         android:layout_marginLeft="15dp"
+         android:text="25"
+         android:textColor="@color/Yellow" /> -->
+
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_alignTop="@+id/txtLevel"
+         android:orientation="vertical" >
+
+           <TextView
+              android:id="@+id/txtTrueQuestion"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_below="@+id/imageView2"
+              android:text="0"
+              style="@style/style_question_right_wronge" /> 
+
+           <ImageView
+              android:id="@+id/imageView2"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/right_wronge_height"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:src="@drawable/right_mark_1" />
+
+     </RelativeLayout>
+
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignTop="@+id/txtLevel"
+         android:orientation="vertical" >
+
+           <TextView
+              android:id="@+id/txtFalseQuestion"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_below="@+id/imageView3"
+              android:text="0"
+              style="@style/style_question_right_wronge" /> 
+
+           <ImageView
+              android:id="@+id/imageView3"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/right_wronge_height"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:src="@drawable/wronge_mark_1" />
+
+     </RelativeLayout>
+    
+
+    
+</RelativeLayout>
