@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.arkay.quizpower"
+        applicationId "com.kpss.quiz"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1

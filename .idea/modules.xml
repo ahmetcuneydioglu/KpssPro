@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BaseGameUtil/BaseGameUtil.iml" filepath="$PROJECT_DIR$/BaseGameUtil/BaseGameUtil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KpssPro.iml" filepath="$PROJECT_DIR$/KpssPro.iml" />
       <module fileurl="file://$PROJECT_DIR$/Quiz Power Witth Game Service/Quiz Power Witth Game Service.iml" filepath="$PROJECT_DIR$/Quiz Power Witth Game Service/Quiz Power Witth Game Service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZaptiyePro.iml" filepath="$PROJECT_DIR$/ZaptiyePro.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

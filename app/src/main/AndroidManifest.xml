@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.arkay.quizpower" >
+    package="com.kpss.quiz" >
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,7 +14,7 @@
          >
 
         <activity
-            android:name="com.arkay.quizpower.SplashActivity"
+            android:name="com.kpss.quiz.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
@@ -26,12 +26,12 @@
         </activity>
 
         <activity
-            android:name="com.arkay.quizpower.MenuHomeScreenActivity"
+            android:name="com.kpss.quiz.MenuHomeScreenActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>
         <activity
-            android:name="com.arkay.quizpower.SingleAnsQuizActivity"
+            android:name="com.kpss.quiz.SingleAnsQuizActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>
@@ -41,27 +41,27 @@
 
 
         <activity
-            android:name="com.arkay.quizpower.LevelActivity"
+            android:name="com.kpss.quiz.LevelActivity"
             android:label="@string/title_activity_quiz_play"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>
 
         <activity
-            android:name="com.arkay.quizpower.SettingActivity"
+            android:name="com.kpss.quiz.SettingActivity"
             android:label="@string/title_activity_quiz_play"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>
 
         <activity
-            android:name="com.arkay.quizpower.AboutUsActivity"
+            android:name="com.kpss.quiz.AboutUsActivity"
             android:label="@string/title_activity_quiz_play"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>
 
         <activity
-            android:name="com.arkay.quizpower.HowToPlayActivity"
+            android:name="com.kpss.quiz.HowToPlayActivity"
             android:label="@string/title_activity_quiz_play"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>

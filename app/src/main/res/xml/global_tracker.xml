@@ -7,13 +7,13 @@
 
     <!-- The screen names that will appear in reports -->
     
-    <screenName name="com.arkay.quizpower.MenuHomeScreenActivity">
+    <screenName name="com.kpss.quiz.MenuHomeScreenActivity">
         App Main Screen
     </screenName>
-    <screenName name="com.arkay.quizpower.SingleAnsQuizActivity">
+    <screenName name="com.kpss.quiz.SingleAnsQuizActivity">
         SingleAnsQuizActivity
     </screenName>
-     <screenName name="com.arkay.quizpower.QuizPlayActivity">
+     <screenName name="com.kpss.quiz.QuizPlayActivity">
         QuizPlayActivity
     </screenName>
      
